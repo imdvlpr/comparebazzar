@@ -4,102 +4,46 @@ include("functions/functions.php");
 ?>
 <!DOCTYPE html>
 <html>
-<head>
-     
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta name="google-site-verification" content="UvppbWoZV0Mlwa5SqyyO3yJDO5TYDcrf3r97snOWi7U" />
-<link rel="icon" href="images/heder3.jpg"  alt="comparebazzar-logo"type="image/gif" sizes="16x16">
-<title>Buy and sell free classified ads  |comparebazzar</title>
-<meta name="description" content="comparebazzar offers free  classified ads in India.comparebazzar provides a simple solution to the complications involved in selling, buying, trading,organizing, and meeting people near you." />
 
-
-<meta charset="utf-8">
-<link rel="stylesheet" href="style/style.css" media="all" />
-
-	<!-- the CSS for Smooth Div Scroll -->
-	<link rel="Stylesheet" type="text/css" href="css/smoothDivScroll.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/css/bootstrap-select.min.css" />
-   <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.3/js/bootstrap-select.min.js"></script>
-  
-<style type="text/css" media="all">
-    /* fix rtl for demo */
-    .chosen-rtl .chosen-drop { left: -9000px; }
-  </style>
-
-	
-	<!-- Styles for my specific scrolling content -->
-	<style type="text/css">
-
-		#makeMeScrollable
-		{
-			width:100%;
-			height: 350px;
-			position: relative;
-			background-color:#000000;
-		}
-		
-		/* Replace the last selector for the type of element you have in
-		   your scroller. If you have div's use #makeMeScrollable div.scrollableArea div,
-		   if you have links use #makeMeScrollable div.scrollableArea a and so on. */
-		#makeMeScrollable div.scrollableArea img
-		{
-			position: relative;
-			float: left;
-			margin: 0;
-			padding: 0;
-			/* If you don't want the images in the scroller to be selectable, try the following
-			   block of code. It's just a nice feature that prevent the images from
-			   accidentally becoming selected/inverted when the user interacts with the scroller. */
-			-webkit-user-select: none;
-			-khtml-user-select: none;
-			-moz-user-select: none;
-			-o-user-select: none;
-			user-select: none;
-		}
-	</style>
-
-        
-        <script type="text/javascript">
-
-alert("Hi.. welcome you at comparebazzar. Right now we are only woking for location jabalpur");
-
-
-
-</script>
     
-        
-        
+    
+ <head>
+     
+<?php include("header.php") ?>
+             
 </head>
 
-
+ 
+<!--search box code -->
 <div class="main_wrapper">  
   <div class="header_wrapper">
 	  <img src="images/heder3.jpg" height="100px"width="200px" style="float:left" />
 	 
 	
-  <div class="form-group">
+    <div class="form-group">
      <form method="get" class="navbar-form navbar-right" action="result.php" enctype="multipart/form-data">
-    <input type="text"  name="user_query"class="form-control" placeholder="Search">
+     <input type="text"  name="user_query"class="form-control" placeholder="Search">
      <input type="submit" class="btn btn-default" name="search" value="search">
  
   </form>
    </div>
 
 	 
-	  </div>
-	 <!--nav bar-->
+ </div>
+    
+ <!--search box code end here -->
+	
+
+
+ <!--nav bar-->
 	  
 	   
 	   
-	    <ul class="nav nav-tabs">
-    <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> H o m e</a></li>
-     <li class=""><a href="all_products.php"><span class="glyphicon glyphicon-product"></span>P R O D U C T S</a></li>
+ <ul class="nav nav-tabs">
+      <li class="active"><a href="index.php"><span class="glyphicon glyphicon-home"></span> H o m e</a></li>
+       <li class=""><a href="all_products.php"><span class="glyphicon glyphicon-product"></span>P R O D U C T S</a></li>
    
- <li class="dropdown">
+      <li class="dropdown">
       <a class="dropdown-toggle" data-toggle="dropdown" href="#">C A T E G O R I E S <span class="caret"></span></a>
      
         <ul class="dropdown-menu">
@@ -113,11 +57,12 @@ alert("Hi.. welcome you at comparebazzar. Right now we are only woking for locat
 	<li class="active" style="float:right"><a href="login.php"><span class="glyphicon glyphicon-user"></span>LOGIN</a></li>
    </ul>
    
-  
+  <!--nav bar code end here-->
 	
 
+
   <div class="content_wrapper"> 
-   
+  <!--jquery image scroller --> 
    <div id="makeMeScrollable">
        <img src="images/how-get-customers2.png" height="350px" width="600px"alt="Demo image" id="field">
 		  <img src="images/comparebazzar3.jpg" height="350px" width="600px"alt="Demo image" id="field">
@@ -126,13 +71,19 @@ alert("Hi.. welcome you at comparebazzar. Right now we are only woking for locat
 			<img src="images/customer.jpg" height="350px" width="600px"alt="Demo image" id="field">
 		 </div> 
 		
-		
-		 <a href="insert_products.php">
+<!--jquery image scroller end here --> 		
+		 
+<!--submit product for button code --> 
+<a href="insert_products.php">
 	<button type="button" class="btn btn-primary btn-lg" style="float:right;margin-top:2px;"><span class="glyphicon glyphicon-shopping-cart"></span> submit a free ad</button></a>
 	
 
+<!--submit product for button code end here --> 		 
 		 
-		 <div class="row-fluid" style="text-align:center" >
+
+<!--search by city code with data base --> 
+
+<div class="row-fluid" style="text-align:center" >
 		
 		 <label for="sel1"><h4><span class="glyphicon glyphicon-map-marker"></span>Select cities :</h4></label>
            <select class="selectpicker"  action="result.php" name="user_query" data-live-search="true" onChange="if(this.options[this.selectedIndex].value != ''){window.top.location.href=this.options[this.selectedIndex].value}">
@@ -146,6 +97,12 @@ alert("Hi.. welcome you at comparebazzar. Right now we are only woking for locat
 	    
 	   
 	   </div>
+
+<!--search by city code with data base end here --> 
+
+
+
+
 	    <table width="400px" border="1 px"  border="solid black">
   <tr>
         <td> <a href="result.php?cat=1"><img src="images/mobile_logo.jpg" alt="Buy and sell mobile" ="90px" width="90px" /> 
@@ -187,7 +144,11 @@ alert("Hi.. welcome you at comparebazzar. Right now we are only woking for locat
 </table>
  
 	</div>	 
-		 
+
+  
+  
+  
+  <!-- php email codes-->
 <table class="table table-hover"  width="300px">
     <div class="section-head text-center">
 						<h3><span class="frist"> </span>GET IN TOUCH<span class="second"> </span></h3>
@@ -253,7 +214,8 @@ alert("Hi.. welcome you at comparebazzar. Right now we are only woking for locat
                                                 }
 ?>      
 					</div>	 
-	 
+
+<!-- php email codes end here -->
 	 
 	
 
@@ -294,15 +256,32 @@ alert("Hi.. welcome you at comparebazzar. Right now we are only woking for locat
 		});
 	</script>
 	
-	<div class="footer">
+
+        
+        
+        
+   <!-- fotter here -->   
+        <div class="footer">
             
+       
+						<div class="col-md-3 footer-grid about-info">
+							<a href="#"><img src="images/heder3.jpg" title="Auto wala" /></a>
+                                                       
+						</div>
+		<div class="col-md-8 footer-grid about-info">
+							
+                    <p style="float: right;">Address: C-9 near proffesssor<br>
+                                                            colony rdvv pachpedi jabalpur<br>
+                                                           contact: 918989738466 ,8109824477. <br>
+                                                           Email: pathakprashant840@gmail.com
+                                                        </p>
+						</div>				     
             
-            
-            
-        </div>
+  <!-- footer ends -->          
+       
 </div>
 
-  
+ 
 
 </body>
 </html>

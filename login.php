@@ -23,6 +23,7 @@ include("functions/functions.php");
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>login here</title>
 <link rel="stylesheet" href="style/user.css" media="all" />
+
 </head>
 
 <body>
@@ -72,7 +73,10 @@ include("functions/functions.php");
 	<button type="button" class="btn btn-primary btn-lg" style="float:right;margin-top:2px;"><span class="glyphicon glyphicon-shopping-cart"></span> submit a free ad</button></a>
 	
 	
-<a href="registation.php"><button type="button" class="btn btn-warning btn-lg " style="float:right"><span class="glyphicon glyphicon-user"></span>Create An Account</button></a>
+
+    
+    
+    <a href="registation.php"><button type="button" class="btn btn-warning btn-lg " style="float:right"><span class="glyphicon glyphicon-user"></span>Create An Account</button></a>
 
 <div class="content_wrapper" >
 <form method = "post" action="login.php" enctype="multipart/form-data">
@@ -84,14 +88,14 @@ include("functions/functions.php");
 	  <tr align="center"><td colspan="2"><h2> Login to account </h2></td></tr>
 	   
        <tr>
-	   <td align="right"><label for="title"><h4>user Email :</h4></label></td>
+	   <td align="right"><label for="title"><h4>Email :</h4></label></td>
 	   <td>
 	   <input type="text" name="user_email" class="form-control" >
  
 	   </td>
 	   </tr>
 	   <tr>
-	   <td align="right"><label for="title"><h4>user Password :</h4></label></td>
+	   <td align="right"><label for="title"><h4>Password :</h4></label></td>
 	   <td>
 	   <input type="password" name="user_pass" class="form-control" >
  
@@ -110,7 +114,27 @@ include("functions/functions.php");
   </form>
 <center><font color="#000000" size="5"> Not registered yet ?</font><a href="registation.php"> Sign up here</a>
 </div>
-<div class="footer"></div>
+
+
+<br>
+    <br>
+<div class="footer">
+            
+       
+						<div class="col-md-3 footer-grid about-info">
+							<a href="#"><img src="images/heder3.jpg" title="Auto wala" /></a>
+                                                       
+						</div>
+		<div class="col-md-8 footer-grid about-info">
+							
+                    <p style="float: right;">Address: C-9 near proffesssor<br>
+                                                            colony rdvv pachpedi jabalpur<br>
+                                                           contact: 918989738466 ,8109824477. <br>
+                                                           Email: pathakprashant840@gmail.com
+                                                        </p>
+						</div>	
+
+
 </div>
 </body>
 </html>

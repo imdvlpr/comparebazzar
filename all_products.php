@@ -1,3 +1,4 @@
+//import files here
 <?php
  include_once ('includes/paginationdb.php'); 
     //get the function
@@ -190,10 +191,25 @@ include("functions/functions.php");
     
 	 
 	
-	  
+	<!--footer here-->  
 	 
-	   <div class="footer"> </div>
-	 
+	  <div class="footer">
+            
+       
+						<div class="col-md-3 footer-grid about-info">
+							<a href="#"><img src="images/heder3.jpg" title="Auto wala" /></a>
+                                                       
+						</div>
+		<div class="col-md-8 footer-grid about-info">
+							
+                    <p style="float: right;">Address: C-9 near proffesssor<br>
+                                                            colony rdvv pachpedi jabalpur<br>
+                                                           contact: 918989738466 ,8109824477. <br>
+                                                           Email: pathakprashant840@gmail.com
+                                                        </p>
+		</div>	
+	
+              <!--footer here-->  
 </div>
 
 
