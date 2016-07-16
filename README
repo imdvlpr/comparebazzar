@@ -1,0 +1,11 @@
+This is a complete code of a product comparing website
+where it is made just for practising pursose not for bussines ,
+where it is fully dynamic website with bootstrap and css combination
+and few of the code of jquery
+you will also find how to use php mail
+
+what you have to do to run this website on your system .
+
+1. make a database name it comparebazzar.
+2. imports all the file from SQL IMPORT folder to your database which you made above.
+3 and run ..
