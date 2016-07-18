@@ -315,7 +315,7 @@ exit();
  $run_product = mysqli_query($con, $insert_product);
 
  if ($run_product){
- echo"<script>window.open('all_products.php','_self')</script>";
+ echo"<script>window.open('all-products.php','_self')</script>";
  }
  
  }
