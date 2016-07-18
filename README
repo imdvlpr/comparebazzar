@@ -7,8 +7,16 @@ you will also find how to use php mail. and basic of php and sql queries
 This website is about posting your add with some pictures as olx do ,
 and it will dynamically comes in website and front of the peoples who will search and buy the products
 
+
+
 what you have to do to run this website on your system .
 
 1. make a database name it comparebazzar.
 2. imports all the file from SQL IMPORT folder to your database which you made above.
 3  and run ..
+
+for php file we made in a function so for all php commands open (fuctions) folder
+
+for website demo open the following links
+
+http://comparebazzar.getrikshaw.com
